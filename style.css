@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    height: 106vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 0px 40px;
+}
+
+.image {
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.image img{
+    height: 50px; 
+    width: 100px;
+    object-fit: contain;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    width: 100px;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 2px #000000;
+    font-size: 73px;
+    margin-bottom: 0;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+    padding-bottom: 30px;
+}
+
+
+h3 {
+    color: white;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 1px #000000;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.info-first, .starring{
+    margin: 40px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.movie-data {
+    width: 420px;
+    height: 95px;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.005em;
+    color: #888888;
+    margin-bottom: 0px;
+}
+
+h2, p{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+}
+
+.info-second{
+    margin: 20px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.starring {
+    margin: 0px;
+}
+
+.starring div {
+    width: 420px;
+}
+
+hr {
+    width: 100%;
+    color: black;
+    
+}
+
+.about {
+    width: 50%;
+    margin-left: 35%;
+}
+
+p{
+    line-height: 1.4;
+    font-size: 1.57rem;
+    font-weight: 400;
+}
+
+.about p {
+    margin-top: 60px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+}
+
+.header div {
+    display: flex;
+    gap: 10px;
+}
+
+span{
+    color: white;
+}
+
+.contacts {
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    
+}
+
+.contacts>div{
+    margin: 60px 40px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.005em;
+    color: white;
+    margin: 0px;
+    margin-bottom: 7px;
+    flex-basis: 300px;
+    line-height: 1;
+
+}
+
+h6{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.005em;
+    color: white;
+    margin: 0px;
+    margin-bottom: 8px;
+    flex-basis: 300px;
+    line-height: 1;
+}
+
+.contact-column{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;
+
+}
+
+a:active { 
+    text-decoration: none; 
+    text-decoration-color: #000000;
+
+}
