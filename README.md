@@ -1,2 +1,2 @@
-# FrontEnd-Portfolio
-Web designs using HTML5 and CSS (and some JS).
+# FrontEnd-Practice
+Web design using HTML5 and CSS.
